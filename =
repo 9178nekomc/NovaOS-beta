@@ -1,0 +1,14 @@
+ffffffff8000d2e5:	48 89 d0             	mov    %rdx,%rax
+ffffffff8000d2e8:	48 83 c4 08          	add    $0x8,%rsp
+ffffffff8000d2ec:	c3                   	ret
+ffffffff8000d2ed:	66 2e 0f 1f 84 00 00 	cs nopw 0x0(%rax,%rax,1)
+ffffffff8000d2f4:	00 00 00 
+ffffffff8000d2f7:	66 0f 1f 84 00 00 00 	nopw   0x0(%rax,%rax,1)
+ffffffff8000d2fe:	00 00 
+
+ffffffff8000d300 <ata_wait_drq>:
+ffffffff8000d300:	f3 0f 1e fa          	endbr64
+ffffffff8000d304:	48 a1 a0 a2 5e 83 ff 	movabs 0xffffffff835ea2a0,%rax
+ffffffff8000d30b:	ff ff ff 
+ffffffff8000d30e:	31 c9                	xor    %ecx,%ecx
+===
